@@ -1,0 +1,65 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.header{
+  background-color: #003D4D;
+  color: #C0C0C0;
+  font-weight: 700px;
+}
+
+.headerButtons{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  font-size: 50px;
+  font-family :Georgia, 'Times New Roman', Times, serif;
+}
+
+.headerButtons li {
+  transition: color 0.3s ease; 
+}
+
+.headerButtons li:hover {
+  color : #FFBF00; 
+}
+
+.main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 900px;
+  font-size: 75px;
+  font-family: monospace;
+}
+
+
+
+#about{
+  font-family :Georgia, 'Times New Roman', Times, serif ;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+}
+
+#portfolio{
+  font-family :Georgia, 'Times New Roman', Times, serif ;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+}
+
+#contact{
+  font-family :Georgia, 'Times New Roman', Times, serif ;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+}
+
+
+.footerContent{
+  display: flex;
+  align-items: center;
+  margin-top: 700px;
+}
